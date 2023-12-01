@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentActivity2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            app:layout_scrollFlags="scroll|enterAlways" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:id="@+id/list1_comment">
+
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/search_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/custom_edittext"
+                    android:iconifiedByDefault="false"
+                    android:queryHint="検索文字を入力してください"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bt_comment"
+                    android:layout_marginLeft="16dp" />
+
+                <ImageButton
+                    android:id="@+id/bt_comment"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="3dp"
+                    android:background="@color/gray"
+                    android:src="@drawable/baseline_arrow_back_24"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginLeft="3dp" />
+
+                <ImageView
+                    android:id="@+id/imageView_comment"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="56dp"
+                    android:src="@mipmap/ic_launcher"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginLeft="4dp" />
+
+                <TextView
+                    android:id="@+id/Text1_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    app:layout_constraintEnd_toStartOf="@+id/Text4_comment"
+                    app:layout_constraintTop_toTopOf="@id/imageView_comment"
+                    app:layout_constraintStart_toEndOf="@id/imageView_comment"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginLeft="12dp" />
+
+                <TextView
+                    android:id="@+id/Text4_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    app:layout_constraintBottom_toTopOf="@+id/Text2_comment"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Text1_comment" />
+
+                <TextView
+                    android:id="@+id/Text2_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@id/Text1_comment"
+                    app:layout_constraintTop_toBottomOf="@id/Text1_comment"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/Text3_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@id/Text2_comment"
+                    app:layout_constraintTop_toBottomOf="@id/Text2_comment"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView1_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_button1_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="right|bottom"
+        app:srcCompat="@drawable/ic_add"
+        android:layout_marginRight="16dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- App -->
+    <string name="app_name">Friends</string>
+
+    <!-- NavigationView -->
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="reload">Reload</string>
+    <string name="add_spot_to_first">Add spot to first</string>
+    <string name="add_spot_to_last">Add spot to last</string>
+    <string name="remove_spot_from_first">Remove spot from first</string>
+    <string name="remove_spot_from_last">Remove spot from last</string>
+    <string name="replace_first_spot">Replace first spot</string>
+    <string name="swap_first_for_last">Swap first for last</string>
+
+    <string name="tv_name">名前</string>
+    <string name="tv_gakubu">学部</string>
+    <string name="tv_gakka">学科</string>
+    <string name="tv_gakunen">年</string>
+    <string name="tv_jikosyoukai">自己紹介文</string>
+    <string name="tv_seibetu">性別</string>
+    <string name="tv_group">グループ（任意）</string>
+    <string name="bt_back">入力完了</string>
+
+    <string name="default_selection">選択してください</string>
+
+    //性別
+    <string-array name="genders">
+        <item>　</item>
+        <item>女性</item>
+        <item>男性</item>
+
+    </string-array>
+    //学部、学科
+    <string-array name="department">
+        <item> </item>
+        <item>教養学部</item>
+        <item>経済学部</item>
+        <item>文学部</item>
+        <item>経営学部</item>
+        <item>法学部</item>
+        <item>工学部</item>
+    </string-array>
+
+    <string-array name="department_1_subjects">
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="department_2_subjects">
+        <item>選択されていません</item>
+        <item>情報科学科</item>
+        <item>人間科学科</item>
+        <item>言語文化学科</item>
+        <item>地域構想学科</item>
+        <!-- 学部1に関連する学科を追加 -->
+    </string-array>
+
+    <string-array name="department_3_subjects">
+        <item>選択されていません</item>
+        <item>経済学科</item>
+        <item>共生社会経済学科</item>
+        <!-- 学部2に関連する学科を追加 -->
+    </string-array>
+    <!-- 各学部に関連する学科を続けて追加 -->
+    <string-array name="department_4_subjects">
+        <item>選択されていません</item>
+        <item>英文学科</item>
+        <item>総合人文学科</item>
+        <item>歴史学科</item>
+        <item>教育学科</item>
+    </string-array>
+
+    <string-array name="department_5_subjects">
+        <item>経営学科</item>
+    </string-array>
+
+    <string-array name="department_6_subjects">
+        <item>法律学科</item>
+    </string-array>
+
+    <string-array name="department_7_subjects">
+        <item>選択されていません</item>
+        <item>機械知能工学科</item>
+        <item>電気電子工学科</item>
+        <item>環境建設工学科</item>
+        <item>情報基盤工学科</item>
+    </string-array>
+
+    <string-array name="grades">
+        <item> </item>
+        <item>1年生</item>
+        <item>2年生</item>
+        <item>3年生</item>
+        <item>4年生</item>
+        <!-- 必要なだけ学年を追加 -->
+    </string-array>
+
+    <string-array name="group">
+        <item> </item>
+        <item>1G</item>
+        <item>2G</item>
+    </string-array>
+
+    <string-array name="hobbies">
+        <item>アニメ</item>
+        <item>映画鑑賞</item>
+        <item>スポーツ</item>
+        <item>料理</item>
+        <item>キャンプ</item>
+        <item>読書</item>
+        <item>スポーツ観戦</item>
+        <item>筋トレ</item>
+        <item>ゲーム</item>
+        <item>音楽</item>
+    </string-array>
+
+
+    <string-array name="subjectM1">
+        <item> </item>
+        <item>哲学</item>
+        <item>歴史学</item>
+    </string-array>
+
+    <string-array name="subjectM2">
+        <item> </item>
+        <item>経済学</item>
+        <item>心理学</item>
+    </string-array>
+
+    <string-array name="subjectM3">
+        <item> </item>
+        <item>情報</item>
+        <item>代数学</item>
+    </string-array>
+
+    <string-array name="subjectM4">
+        <item> </item>
+        <item>地理学</item>
+        <item>コンピュータ</item>
+    </string-array>
+
+    <string-array name="subjectM5">
+        <item> </item>
+        <item>プログラミング</item>
+        <item>文化の歴史</item>
+    </string-array>
+
+    <string-array name="subjectM6">
+        <item> </item>
+        <item>英語</item>
+        <item>中国語</item>
+    </string-array>
+
+    <string-array name="subjectTu1">
+        <item> </item>
+        <item>数学基礎</item>
+        <item>物理学</item>
+    </string-array>
+
+    <string-array name="subjectTu2">
+        <item> </item>
+        <item>環境科学</item>
+        <item>政治学</item>
+    </string-array>
+
+    <string-array name="subjectTu3">
+        <item> </item>
+        <item>生物学</item>
+        <item>経営学</item>
+    </string-array>
+
+    <string-array name="subjectTu4">
+        <item> </item>
+        <item>有機化学</item>
+        <item>線形代数</item>
+    </string-array>
+
+    <string-array name="subjectTu5">
+        <item> </item>
+        <item>教育学</item>
+        <item>量子力学</item>
+    </string-array>
+
+    <string-array name="subjectTu6">
+        <item> </item>
+        <item>文学</item>
+        <item>解析学</item>
+    </string-array>
+
+    <string-array name="subjectW1">
+        <item> </item>
+        <item>哲学</item>
+        <item>歴史学</item>
+    </string-array>
+
+    <string-array name="subjectW2">
+        <item> </item>
+        <item>経済学</item>
+        <item>心理学</item>
+    </string-array>
+
+    <string-array name="subjectW3">
+        <item> </item>
+        <item>情報</item>
+        <item>代数学</item>
+    </string-array>
+
+    <string-array name="subjectW4">
+        <item> </item>
+        <item>地理学</item>
+        <item>コンピュータ</item>
+    </string-array>
+
+    <string-array name="subjectW5">
+        <item> </item>
+        <item>プログラミング</item>
+        <item>文化の歴史</item>
+    </string-array>
+
+    <string-array name="subjectW6">
+        <item> </item>
+        <item>英語</item>
+        <item>中国語</item>
+    </string-array>
+
+    <string-array name="subjectTh1">
+        <item> </item>
+        <item>統計学</item>
+        <item>フランス語</item>
+    </string-array>
+
+    <string-array name="subjectTh2">
+        <item> </item>
+        <item>微分方程式</item>
+        <item>芸術学</item>
+    </string-array>
+
+    <string-array name="subjectTh3">
+        <item> </item>
+        <item>確率論</item>
+        <item>化学基礎</item>
+    </string-array>
+
+    <string-array name="subjectTh4">
+        <item> </item>
+        <item>韓国語</item>
+        <item>体育</item>
+    </string-array>
+
+    <string-array name="subjectTh5">
+        <item> </item>
+        <item>ソフトウエア</item>
+        <item>考古学</item>
+    </string-array>
+
+    <string-array name="subjectTh6">
+        <item> </item>
+        <item>音楽</item>
+        <item>デザイン</item>
+    </string-array>
+
+    <string-array name="subjectF1">
+        <item> </item>
+        <item>数学基礎</item>
+        <item>物理学</item>
+    </string-array>
+
+    <string-array name="subjectF2">
+        <item> </item>
+        <item>環境科学</item>
+        <item>政治学</item>
+    </string-array>
+
+    <string-array name="subjectF3">
+        <item> </item>
+        <item>生物学</item>
+        <item>経営学</item>
+    </string-array>
+
+    <string-array name="subjectF4">
+        <item> </item>
+        <item>有機化学</item>
+        <item>線形代数</item>
+    </string-array>
+
+    <string-array name="subjectF5">
+        <item> </item>
+        <item>教育学</item>
+        <item>量子力学</item>
+    </string-array>
+
+    <string-array name="subjectF6">
+        <item> </item>
+        <item>文学</item>
+        <item>解析学</item>
+    </string-array>
+
+
+
+    <string-array name="subject_M1_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_M1_2_teacher">
+        <item>選択されていません</item>
+        <item>A先生</item>
+        <item>B先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M1_3_teacher">
+        <item>選択されていません</item>
+        <item>C先生</item>
+        <item>D先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M2_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_M2_2_teacher">
+        <item>選択されていません</item>
+        <item>E先生</item>
+        <item>F先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M2_3_teacher">
+        <item>選択されていません</item>
+        <item>G先生</item>
+        <item>H先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M3_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_M3_2_teacher">
+        <item>選択されていません</item>
+        <item>I先生</item>
+        <item>J先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M3_3_teacher">
+        <item>選択されていません</item>
+        <item>K先生</item>
+        <item>L先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M4_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_M4_2_teacher">
+        <item>選択されていません</item>
+        <item>M先生</item>
+        <item>N先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M4_3_teacher">
+        <item>選択されていません</item>
+        <item>O先生</item>
+        <item>P先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M5_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_M5_2_teacher">
+        <item>選択されていません</item>
+        <item>Q先生</item>
+        <item>R先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M5_3_teacher">
+        <item>選択されていません</item>
+        <item>S先生</item>
+        <item>T先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M6_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_M6_2_teacher">
+        <item>選択されていません</item>
+        <item>U先生</item>
+        <item>V先生</item>
+
+    </string-array>
+
+    <string-array name="subject_M6_3_teacher">
+        <item>選択されていません</item>
+        <item>W先生</item>
+        <item>X先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu1_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu1_2_teacher">
+        <item>選択されていません</item>
+        <item>Y先生</item>
+        <item>Z先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu1_3_teacher">
+        <item>選択されていません</item>
+        <item>a先生</item>
+        <item>b先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu2_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu2_2_teacher">
+        <item>選択されていません</item>
+        <item>c先生</item>
+        <item>d先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu2_3_teacher">
+        <item>選択されていません</item>
+        <item>e先生</item>
+        <item>f先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu3_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu3_2_teacher">
+        <item>選択されていません</item>
+        <item>g先生</item>
+        <item>h先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu3_3_teacher">
+        <item>選択されていません</item>
+        <item>i先生</item>
+        <item>j先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu4_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu4_2_teacher">
+        <item>選択されていません</item>
+        <item>k先生</item>
+        <item>l先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu4_3_teacher">
+        <item>選択されていません</item>
+        <item>m先生</item>
+        <item>n先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu5_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu5_2_teacher">
+        <item>選択されていません</item>
+        <item>o先生</item>
+        <item>p先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu5_3_teacher">
+        <item>選択されていません</item>
+        <item>q先生</item>
+        <item>r先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu6_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu6_2_teacher">
+        <item>選択されていません</item>
+        <item>s先生</item>
+        <item>t先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Tu6_3_teacher">
+        <item>選択されていません</item>
+        <item>u先生</item>
+        <item>v先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W1_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_W1_2_teacher">
+        <item>選択されていません</item>
+        <item>w先生</item>
+        <item>x先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W1_3_teacher">
+        <item>選択されていません</item>
+        <item>y先生</item>
+        <item>z先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W2_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_W2_2_teacher">
+        <item>選択されていません</item>
+        <item>AA先生</item>
+        <item>AB先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W2_3_teacher">
+        <item>選択されていません</item>
+        <item>AC先生</item>
+        <item>AD先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W3_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_W3_2_teacher">
+        <item>選択されていません</item>
+        <item>AE先生</item>
+        <item>AF先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W3_3_teacher">
+        <item>選択されていません</item>
+        <item>AG先生</item>
+        <item>AH先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W4_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_W4_2_teacher">
+        <item>選択されていません</item>
+        <item>AI先生</item>
+        <item>AJ先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W4_3_teacher">
+        <item>選択されていません</item>
+        <item>AK先生</item>
+        <item>AL先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W5_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_W5_2_teacher">
+        <item>選択されていません</item>
+        <item>AM先生</item>
+        <item>AN先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W5_3_teacher">
+        <item>選択されていません</item>
+        <item>AO先生</item>
+        <item>AP先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W6_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_W6_2_teacher">
+        <item>選択されていません</item>
+        <item>AQ先生</item>
+        <item>AR先生</item>
+
+    </string-array>
+
+    <string-array name="subject_W6_3_teacher">
+        <item>選択されていません</item>
+        <item>AS先生</item>
+        <item>AT先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th1_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Th1_2_teacher">
+        <item>選択されていません</item>
+        <item>AU先生</item>
+        <item>AV先生</item>
+
+    </string-array>
+
+    <string-array name="subject_TH1_3_teacher">
+        <item>選択されていません</item>
+        <item>AW先生</item>
+        <item>AX先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th2_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Th2_2_teacher">
+        <item>選択されていません</item>
+        <item>AY先生</item>
+        <item>AZ先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th2_3_teacher">
+        <item>選択されていません</item>
+        <item>Aa先生</item>
+        <item>Ab先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th3_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Th3_2_teacher">
+        <item>選択されていません</item>
+        <item>I先生</item>
+        <item>J先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th3_3_teacher">
+        <item>選択されていません</item>
+        <item>K先生</item>
+        <item>L先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th4_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Th4_2_teacher">
+        <item>選択されていません</item>
+        <item>M先生</item>
+        <item>N先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th4_3_teacher">
+        <item>選択されていません</item>
+        <item>O先生</item>
+        <item>P先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th5_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Th5_2_teacher">
+        <item>選択されていません</item>
+        <item>Q先生</item>
+        <item>R先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th5_3_teacher">
+        <item>選択されていません</item>
+        <item>S先生</item>
+        <item>T先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th6_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_Th6_2_teacher">
+        <item>選択されていません</item>
+        <item>U先生</item>
+        <item>V先生</item>
+
+    </string-array>
+
+    <string-array name="subject_Th6_3_teacher">
+        <item>選択されていません</item>
+        <item>W先生</item>
+        <item>X先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F1_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_F1_2_teacher">
+        <item>選択されていません</item>
+        <item>Y先生</item>
+        <item>Z先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F1_3_teacher">
+        <item>選択されていません</item>
+        <item>a先生</item>
+        <item>b先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F2_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_F2_2_teacher">
+        <item>選択されていません</item>
+        <item>c先生</item>
+        <item>d先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F2_3_teacher">
+        <item>選択されていません</item>
+        <item>e先生</item>
+        <item>f先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F3_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_F3_2_teacher">
+        <item>選択されていません</item>
+        <item>g先生</item>
+        <item>h先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F3_3_teacher">
+        <item>選択されていません</item>
+        <item>i先生</item>
+        <item>j先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F4_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_F4_2_teacher">
+        <item>選択されていません</item>
+        <item>k先生</item>
+        <item>l先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F4_3_teacher">
+        <item>選択されていません</item>
+        <item>m先生</item>
+        <item>n先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F5_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_F5_2_teacher">
+        <item>選択されていません</item>
+        <item>o先生</item>
+        <item>p先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F5_3_teacher">
+        <item>選択されていません</item>
+        <item>q先生</item>
+        <item>r先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F6_1_teacher">
+        <item>選択されていません</item>
+
+    </string-array>
+
+    <string-array name="subject_F6_2_teacher">
+        <item>選択されていません</item>
+        <item>s先生</item>
+        <item>t先生</item>
+
+    </string-array>
+
+    <string-array name="subject_F6_3_teacher">
+        <item>選択されていません</item>
+        <item>u先生</item>
+        <item>v先生</item>
+
+    </string-array>
+</resources>

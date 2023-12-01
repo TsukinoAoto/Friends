@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "804532596507",
+    "firebase_url": "https://ccc-firebase-9003f-default-rtdb.firebaseio.com",
+    "project_id": "ccc-firebase-9003f",
+    "storage_bucket": "ccc-firebase-9003f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804532596507:android:c40dbbdc3e8e747551edbe",
+        "android_client_info": {
+          "package_name": "com.yuyakaido.android.cardstackview.sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsCVhtQiTP9A2QxPv3mwg7pBL5IJxqLj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+
+    <application
+
+        android:name=".UserProfileData"
+
+        android:label="@string/app_name"
+        android:allowBackup="false"
+        android:icon="@drawable/person"
+        android:roundIcon="@drawable/person"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubActivity"></activity>
+        <activity android:name=".AddActivity1"></activity>
+        <activity android:name=".CommentActivity1"></activity>
+        <activity android:name=".Page1Fragment"></activity>
+        <activity android:name=".ThreadFragment"></activity>
+        <activity android:name=".Page4Fragment"></activity>
+        <activity android:name=".AddActivity4"></activity>
+        <activity android:name=".AddActivity2"></activity>
+        <activity android:name=".AddActivity3"></activity>
+        <activity android:name=".Page2Fragment"></activity>
+        <activity android:name=".Page3Fragment"></activity>
+        <activity android:name=".MatchingActivity"></activity>
+        <activity android:name=".RegisterPage"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".MatchingNextActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".AddCommentActivity1"></activity>
+        <activity android:name=".CommentActivity2"></activity>
+        <activity android:name=".CommentActivity3"></activity>
+        <activity android:name=".CommentActivity4"></activity>
+        <activity android:name=".AddCommentActivity2"></activity>
+        <activity android:name=".AddCommentActivity3"></activity>
+        <activity android:name=".AddCommentActivity4"></activity>
+
+        <activity
+            android:name=".TimeActivity"
+            android:exported="false"/>
+
+        <activity android:name=".SettingActivity">
+
+            <!-- 必要に応じてインテントフィルターを追加 -->
+        </activity>
+    </application>
+
+</manifest>
